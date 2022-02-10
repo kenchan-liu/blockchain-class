@@ -1,0 +1,168 @@
+Token 7c4041024be5449b84b4c353121fc9b3
+
+
+Private key: cQqD3611NwiPr8yH7makxE8qsduhAMxmcvkVRrAbksH5NJyQm2YX
+Address: mkLTc5kUwmCVCVeDY7ZojbeByMZqEbzcVZ
+
+alice:
+We sent 0.01661513 bitcoins to address
+mkLTc5kUwmCVCVeDY7ZojbeByMZqEbzcVZ
+
+tx: ea3d1768413020be5319e34c39dbddee08a28d46af92988b793c73458b087c42
+Send coins back, when you don't need them anymore to the address
+
+mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB
+
+Private key: cRXwdLirgGfngX5rX3NF1UKPsKbBpfbRM9ZgG5hRwT4ZRyG2PgcX
+Address: mjxjeB7bmtQwxUquUFSeULky1r3wpt1kvB
+
+bob:
+
+We sent 0.01789958 bitcoins to address
+mjxjeB7bmtQwxUquUFSeULky1r3wpt1kvB
+
+tx: cb5d1d20751c80f255a38f44d2e525dbe57d52e304bf633683b990dac7dfbd35
+Send coins back, when you don't need them anymore to the address
+
+mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB
+
+
+alice BCY：
+{
+  "private": "8bf13691c30b9bee5d69d55d571a0bc6b0e2a56b6e95ef6321505686aec984ea",
+  "public": "02a6e82b3aee0448196f627c151e32390b35901fcfaf57d04927cde5d3cb78d0e1",
+  "address": "BsnHtmLYbxLFf6KYAb7xj8xiMLzf8dW2fY",
+  "wif": "Bt24SmbGWird6CbAaehio3WwBJYE9mAqvxSMt5oUZGLyRLxN6LRJ"
+}
+bob BCY：
+{
+  "private": "e880d47e3e9453bbb6fa5293346aedce03937f35eb3a70c66c32333d078341af",
+  "public": "037b8f9356aa6242c818f5bb6a8bb6d5078b31eed9cfbc387fc650eba5c3d2cec7",
+  "address": "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd",
+  "wif": "Bw7zBVxtdLL4uqgqhDhtQ82huveaHPixvRPeaHKgTB3GcgMaeoxC"
+}
+bob的bcy地址领取测试币：
+{
+  "tx_ref": "776fb508c413106a9c262167f0738b0f3619d3af1f7cfa856de686d3c502e338"
+}
+
+split coin：
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "e62c480e5d50f3aa0fcafea88f9587d19e63eea0a4bcf51eef3f7a99ad43aaf7",
+    "addresses": [
+      "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+    ],
+    "total": 900000,
+    "fees": 100000,
+    "size": 498,
+    "vsize": 498,
+    "preference": "high",
+    "relayed_by": "106.47.150.218",
+    "received": "2021-11-26T06:15:19.787499296Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "776fb508c413106a9c262167f0738b0f3619d3af1f7cfa856de686d3c502e338",
+        "output_index": 0,
+        "script": "4830450221008732bb77d2a4879f6fdd19b70ddab26dec44418bd04243713fb2201b5d376fc702202a050cb822b49a3697395504da08fc84479e7bee143fc74a95b7673c3f988a670121037b8f9356aa6242c818f5bb6a8bb6d5078b31eed9cfbc387fc650eba5c3d2cec7",
+        "output_value": 1000000,
+        "sequence": 4294967295,
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 45499
+      }
+    ],
+    "outputs": [
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 90000,
+        "script": "76a914e8805828d89f786037d095a81d8de83b8f676af188ac",
+        "addresses": [
+          "CEKe6xg8Ma8AZbvBqss2RR9C4PyzKRFccd"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}

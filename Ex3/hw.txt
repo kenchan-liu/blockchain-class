@@ -1,0 +1,94 @@
+ex3a
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "5cc6a4b473c2ec46df08dc755aa6f70994eafd9b8b5218bba500a1d2afba3418",
+    "addresses": [
+      "n4n1eP73cYQj4cCtrZFZ1VvEMQm6XLWLwE"
+    ],
+    "total": 100000,
+    "fees": 100000,
+    "size": 178,
+    "vsize": 178,
+    "preference": "high",
+    "relayed_by": "106.47.130.158",
+    "received": "2021-11-02T05:05:24.02373879Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "e8da1fdc9ac1500380614a1d561888ed6ba19c5764b582e9202aa131c9340a52",
+        "output_index": 0,
+        "script": "483045022100af4eec49678f609b96c965f7c9752461cba59cd3a64c26cbbefc1ad7d68da4e1022054d769a96bf2371d128e8d301c4769d50e21214eeff1f854e1aa482db2b30c9b0121037d0d983afe0354ce5ecb78426b72f60c3425ae96a92f72157957a5979192adb8",
+        "output_value": 200000,
+        "sequence": 4294967295,
+        "addresses": [
+          "n4n1eP73cYQj4cCtrZFZ1VvEMQm6XLWLwE"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 0
+      }
+    ],
+    "outputs": [
+      {
+        "value": 100000,
+        "script": "6e9302c000889402c40487",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+
+[Done] exited with code=0 in 3.011 seconds
+
+ex3b
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "e2d9fe8f9b294067bde2b591eb74d9a47b13e22967e438f8e1e6cb3d1ce44924",
+    "addresses": [
+      "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+    ],
+    "total": 50000,
+    "fees": 50000,
+    "size": 91,
+    "vsize": 91,
+    "preference": "high",
+    "relayed_by": "106.47.130.158",
+    "received": "2021-11-02T05:10:03.988135914Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "5cc6a4b473c2ec46df08dc755aa6f70994eafd9b8b5218bba500a1d2afba3418",
+        "output_index": 0,
+        "script": "02c202020282",
+        "output_value": 100000,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 0
+      }
+    ],
+    "outputs": [
+      {
+        "value": 50000,
+        "script": "76a9149f9a7abd600c0caa03983a77c8c3df8e062cb2fa88ac",
+        "addresses": [
+          "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
